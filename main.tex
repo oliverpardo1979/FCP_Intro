@@ -142,10 +142,10 @@
     \begin{block}{Rama ejecutiva}
       \textbf{Orden nacional}
       \begin{itemize}
-        \item Presidente y ministros
-        \item Sector central y descentralizado
+        \item Presidencia
+        \item Sectores (Hacienda, Defensa, Salud, etc)
       \end{itemize}
-      \textbf{Orden territorial:} gobernaciones, alcald\'ias y sus entidades.
+      \textbf{Orden territorial:} Gobernaciones y Alcald\'ias.
     \end{block}
   \end{column}
   \begin{column}{0.32\textwidth}
@@ -186,7 +186,7 @@ Puede retirar o suspender normas fiscales incompatibles con normas superiores. \
 \end{tabular}
 \vspace{0.25cm}
 \begin{block}{Regla de lectura}
-Las funciones est\'an separadas, pero los \'organos colaboran arm\'onicamente y se controlan entre s\'i. La competencia concreta siempre depende de la Constituci\'on y la ley.
+Las funciones est\'an separadas, pero los \'organos colaboran arm\'onicamente y se controlan entre s\'i. La competencia concreta siempre depende de la Constituci\'on y la ley. En la práctica, habrán controversias.
 \end{block}
 \note{[Sources] Constituci\'on Pol\'itica, arts. 113--116, 150, 189, 241 y 237.}
 \end{frame}
@@ -212,35 +212,36 @@ Ministros y otras autoridades: resoluciones, circulares y \'ordenes, seg\'un com
 Deben respetar Constituci\'on, ley y reglamentos superiores; pueden ser revocados o anulados conforme al ordenamiento. \\
 \end{tabular}
 \vspace{0.12cm}
-\textit{Precisi\'on:} no existe una pir\'amide exhaustiva y lineal para todas las normas. Importan tambi\'en la materia, la competencia y los procedimientos especiales.
+%\textit{Precisi\'on:} no existe una pir\'amide exhaustiva y lineal para todas las normas. Importan tambi\'en la materia, la competencia y los procedimientos especiales.
 \note{[Sources] Constituci\'on Pol\'itica, arts. 4, 150, 189.10--11, 212--215, 241 y 374--379; Corte Constitucional, sentencias C-037 de 2000 y C-536 de 2005.}
 \end{frame}
 
-\begin{frame}{Los contrapesos operan antes y despu\'es de decidir}
-\small
-\begin{tikzpicture}[
-  node distance=1.3cm and 1.5cm,
-  organ/.style={rectangle, rounded corners, draw=blue!70, fill=blue!8,
-    text width=3.0cm, minimum height=1.05cm, align=center},
-  control/.style={-{Stealth[length=2mm]}, thick, draw=black!65}
-]
-  \node[organ] (congreso) {\textbf{Congreso}\\leyes, presupuesto\\y control pol\'itico};
-  \node[organ, right=of congreso] (gobierno) {\textbf{Gobierno}\\sanci\'on u objeci\'on\\y ejecuci\'on};
-  \node[organ, below=of congreso] (corte) {\textbf{Corte Constitucional}\\control de la ley y de\\decretos con fuerza de ley};
-  \node[organ, right=of corte] (consejo) {\textbf{Consejo de Estado}\\control de actos\\administrativos};
+%\begin{frame}{Los contrapesos operan antes y despu\'es de decidir}
+%\small
+%\begin{tikzpicture}[
+%  node distance=1.3cm and 1.5cm,
+%  organ/.style={rectangle, rounded corners, draw=blue!70, fill=blue!8,
+%    text width=3.0cm, minimum height=1.05cm, align=center},
+%  control/.style={-{Stealth[length=2mm]}, thick, draw=black!65}
+%]
+%  \node[organ] (congreso) {\textbf{Congreso}\\leyes, presupuesto\\y control pol\'itico};
+%  \node[organ, right=of congreso] (gobierno) {\textbf{Gobierno}\\sanci\'on u objeci\'on\\y ejecuci\'on};
+%  \node[organ, below=of congreso] (corte) {\textbf{Corte Constitucional}\\control de la ley y de\\decretos con fuerza de ley};
+%  \node[organ, right=of corte] (consejo) {\textbf{Consejo de Estado}\\control de actos\\administrativos};
 
-  \draw[control, bend left=12] (congreso) to node[above, sloped, font=\tiny]{autoriza y controla} (gobierno);
-  \draw[control, bend left=12] (gobierno) to node[below, sloped, font=\tiny]{sanciona u objeta} (congreso);
-  \draw[control] (corte) -- node[left, font=\tiny]{constitucionalidad} (congreso);
-  \draw[control] (corte) -- node[below, sloped, font=\tiny]{l\'imites constitucionales} (gobierno);
-  \draw[control] (consejo) -- node[right, font=\tiny]{legalidad} (gobierno);
-\end{tikzpicture}
-\vspace{0.15cm}
-\begin{alertblock}{Controles transversales}
-Contralor\'ia: control fiscal; Ministerio P\'ublico: vigilancia disciplinaria y protecci\'on de derechos; ciudadan\'ia: voto, participaci\'on, acciones p\'ublicas y tutela.
-\end{alertblock}
-\note{[Sources] Constituci\'on Pol\'itica, arts. 113, 135, 150, 167, 189, 237, 241, 267 y 275--282.}
-\end{frame}
+%  \draw[control, bend left=12] (congreso) to node[above, sloped, font=\tiny]{autoriza y controla} (gobierno);
+%  \draw[control, bend left=12] (gobierno) to node[below, sloped, font=\tiny]{sanciona u objeta} (congreso);
+%  \draw[control] (corte) -- node[left, font=\tiny]{constitucionalidad} (congreso);
+%  \draw[control] (corte) -- node[below, sloped, font=\tiny]{l\'imites constitucionales} (gobierno);
+%  \draw[control] (consejo) -- node[right, font=\tiny]{legalidad} (gobierno);
+%\end{tikzpicture}
+%\vspace{0.15cm}
+%\begin{alertblock}{Controles transversales}
+%Contralor\'ia: control fiscal. %Procuraduría: vigilancia disciplinaria y protecci\'on de derechos; 
+%Ciudadan\'ia: voto, tutela y derechos de petición.
+%\end{alertblock}
+%\note{[Sources] Constituci\'on Pol\'itica, arts. 113, 135, 150, 167, 189, 237, 241, 267 y 275--282.}
+%\end{frame}
 
 \begin{frame}
   \frametitle{Art\'iculo 209 - CP de 1991}
